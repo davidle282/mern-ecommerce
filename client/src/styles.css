@@ -1,0 +1,51 @@
+@import "~antd/dist/antd.css";
+
+@media screen and (min-width: 1024px) {
+  .app-content {
+    padding: 0 200px;
+  }
+  .app-header {
+    padding: 0 200px;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+  .ant-layout-header {
+    padding: 0 !important;
+  }
+}
+
+.app-wrapper {
+  background: #fff;
+  padding-bottom: 20px;
+  min-height: 86vh;
+}
+
+.app-logo {
+  float: left;
+  width: 60px;
+  height: 60px;
+}
+
+.app-header {
+  background-color: white;
+  margin-bottom: 1;
+}
+
+.page-wrapper {
+  padding: 10px;
+}
+
+.home-slide-item {
+  height: 460px;
+  color: #fff;
+  line-height: 160px;
+  text-align: center;
+  background: #364d79;
+}
+
+.product-load-more {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
